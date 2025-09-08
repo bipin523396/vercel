@@ -16,8 +16,8 @@ const path = require("path");
 
 // Supabase client
 const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
+  'https://ngyvruzcqnyhytogybov.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5neXZydXpjcW55aHl0b2d5Ym92Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NzI1OTgwMSwiZXhwIjoyMDcyODM1ODAxfQ.f37udeZi4NbrO4zCNrS8xnLbbSjMCQ1flyKwtPhMdyg'
 );
 
 // Home Route
