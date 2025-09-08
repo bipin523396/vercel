@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:10000"; // change to your hosted backend
+const API_URL = "https://vercel-r8dliudn8-bipin523396s-projects.vercel.app"; // change to your hosted backend
 
 // Add worker
 document.getElementById("workerForm").addEventListener("submit", async (e) => {
